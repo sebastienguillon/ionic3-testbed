@@ -1,0 +1,80 @@
+
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>focus</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+
+  <!-- <p><a href="https://angular.io/guide/lifecycle-hooks">Angular Lifecycle Hooks</a></p> -->
+
+  <ion-list>
+
+    <ion-item>
+      <ion-label floating>Username</ion-label>
+      <ion-input type="text" value=""></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label floating>Password</ion-label>
+      <ion-input type="password"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label floating>Email</ion-label>
+      <ion-input type="email"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label floating>Phone number</ion-label>
+      <ion-input type="number"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label floating>First Name</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label floating>Last Name</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label floating>Age</ion-label>
+      <ion-input #focusMe type="number"></ion-input>
+    </ion-item>
+
+    <ion-list radio-group>
+      <ion-list-header>
+        Are you sure?
+      </ion-list-header>
+      <ion-item>
+        <ion-label>Yes</ion-label>
+        <ion-radio checked="yes" value="go"></ion-radio>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>No</ion-label>
+        <ion-radio value="no"></ion-radio>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>Maybe</ion-label>
+        <ion-radio value="maybe"></ion-radio>
+      </ion-item>
+    </ion-list>
+
+    <ion-item>
+      <ion-range [(ngModel)]="brightness">
+        <ion-icon range-left small name="sunny"></ion-icon>
+        <ion-icon range-right name="sunny"></ion-icon>
+      </ion-range>
+    </ion-item>
+  </ion-list>
+</ion-content>

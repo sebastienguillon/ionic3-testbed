@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>click</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <button ion-button (click)="clickHandler($event)">Click and log the event</button>
+  <button ion-button (click)="clickPush($event)">Click and push</button>
+  <button ion-button (click)="clickPushMultiple($event)">Multiple clicks and push</button>
+</ion-content>

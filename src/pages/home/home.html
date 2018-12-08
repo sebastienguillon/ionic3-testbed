@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Ionic 3 Testbed</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <p>
+    <a href="http://ionicframework.com/docs/v2">Ionic documentation.</a>
+  </p>
+
+  <ion-list>
+    <ion-list>
+      <button ion-item [navPush]="'FocusPage'">
+        focus
+      </button>
+      <button ion-item [navPush]="'ClickPage'">
+        click
+      </button>
+    </ion-list>
+  </ion-list>
+</ion-content>

@@ -1,0 +1,7 @@
+{
+  "name": "ionic3-testbed",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
