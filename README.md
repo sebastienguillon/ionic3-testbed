@@ -1,10 +1,11 @@
 # Ionic 3 Testbed
 
-An [Ionic](https://ionicframework.com/docs/) 3 Testbed to test anything proper to Ionic 3 and underlying frameworks and technologies, like:
-- Sass
-- Angular
-- RxJS
-- Native plugins
+An [Ionic 3](https://ionicframework.com/docs/) Testbed to test anything proper to Ionic 3 and underlying frameworks and technologies, like:
+- [Sass](http://sass-lang.com/guide)
+- Angular in genaral, but specifically [Angular 5](https://v5.angular.io/docs)
+- [RxJS 5](https://github.com/ReactiveX/rxjs/tree/stable)
+- [Ionic Native](https://ionicframework.com/docs/native/)
+- Other [Cordova plugins](https://cordova.apache.org/plugins/)
 - more...
 
 ## Focus
