@@ -17,7 +17,7 @@ export class FocusPage implements OnInit {
     console.log('FocusPage.ngOnInit()');
     setTimeout(() => {
       this.focusMe.setFocus();
-    }, 100);
+    }, 600);
   }
 
   ioniViewWillEnter() {
