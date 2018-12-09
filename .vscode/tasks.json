@@ -1,0 +1,51 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+
+  /**
+  Documentation:
+  https://code.visualstudio.com/docs/editor/tasks
+
+  Variables Reference:
+  https://code.visualstudio.com/docs/editor/variables-reference
+  */
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run current file with Node.js",
+      "type": "shell",
+      "command": "node",
+      "args": [
+        "${fileBasename}"
+      ],
+      "problemMatcher": [],
+
+    },
+    {
+      "label": "Build script",
+      "type": "process",
+      "command": "node",
+      "args": [
+        "./scripts/test.js"
+      ],
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      }
+    },
+    {
+      "label": "ansi-colors tester",
+      "type": "process",
+      "command": "node",
+      "args": [
+        "./scripts/ansi-colors-test.js"
+      ],
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      }
+    }
+  ]
+}
